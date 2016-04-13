@@ -52,7 +52,7 @@ figcaption {
 }
 
 .banner-content {
-  margin: -2.5em;;
+  margin: -2.5em;
   padding-top: 1em;
   text-align: center;
 }
@@ -228,8 +228,7 @@ ul {
 }
 
 .contact {
-  margin-left: 1em .5em;
+  margin-left: -.5em;
   background-color: #e2e2e2;
-  margin: -1em;
   padding: 0.1em .5em;
 }
