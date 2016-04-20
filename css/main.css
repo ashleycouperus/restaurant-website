@@ -36,6 +36,13 @@ nav a {
   max-width: 100%;
   position: relative;
   display: block;
+  margin-right: -4em;
+}
+
+.banner-content {
+  margin: -2.5em;
+  padding-top: 1em;
+  text-align: center;
 }
 
 figcaption {
@@ -53,12 +60,6 @@ figcaption {
   font-size: 1.5rem;
   float: right;
   margin-right: 1em;
-}
-
-.banner-content {
-  margin: -2.5em;
-  padding-top: 1em;
-  text-align: center;
 }
 
 h2 {
@@ -137,7 +138,7 @@ h3 {
   margin-top: 1em;
   position: relative;
   float: right;
-  right: 10%;
+  right: 12%;
 }
 
 .link-card {
@@ -177,7 +178,6 @@ p {
 
 .mission {
   margin-top: 50em;
-  margin-left: .5em;
   border-top: 1px solid #333;
 }
 
@@ -203,7 +203,7 @@ h6 {
 }
 
 .location {
-  margin-top: 25em;
+  margin-top: 5em;
   border-top: 1px solid #333;
 }
 
@@ -226,7 +226,6 @@ ul {
 
 .menu {
   border-top: 1px solid #333;
-  margin-left: .5em;
   margin-top: 4em;
 }
 
@@ -252,7 +251,7 @@ ul {
 
 .service {
   border-top: 1px solid #333;
-  margin-top: 25em;
+  margin-top: 5em;
 }
 
 .faster {
@@ -340,6 +339,10 @@ h7 {
   figcaption {
     left: 29%;
     top: 15em;
+   }
+
+   .link-cards {
+      text-align: center;
    }
 
   .link {
@@ -431,8 +434,28 @@ h7 {
     position: relative;
     left: 1rem;
   }
+
+  .location {
+    margin-top: 5em;
+    border-top: 1px solid #333;
+  }
+
+  .service {
+    border-top: 1px solid #333;
+    margin-top: 25em;
+  }
+
+  .location {
+    margin-top: 25em;
+    border-top: 1px solid #333;
+  }
+
 }
 
 @media only screen and (min-width: 90em) {
 
+  html {
+    font-size: 130%;
+    line-height: 1.5;
+  }
 }
