@@ -60,11 +60,13 @@ figcaption {
 
 h2 {
   font-size: 1.3rem;
+  text-align: center;
 }
 
 h3 {
   font-size: 1rem;
   font-style: italic;
+  text-align: center;
 }
 
 .btn {
@@ -132,7 +134,7 @@ h3 {
   margin-top: 1em;
   position: relative;
   float: right;
-  right: 18%;
+  right: 10%;
 }
 
 a {
@@ -142,7 +144,7 @@ a {
 }
 
 p {
-  text-align: left;
+  text-align: center;
 }
 
 .mission {
@@ -154,6 +156,7 @@ p {
 h4 {
   font-size: 1.25rem;
   margin-left: .5em;
+  text-align: center;
 }
 
 h6 {
@@ -167,12 +170,12 @@ h6 {
   display: inline-block;
   float: left;
   position: relative;
-  left: 3em;
+  left: 3.5em;
   padding-left: .2em;
 }
 
 .location {
-  margin-top: 8em;
+  margin-top: 4em;
   border-top: 1px solid #333;
 }
 
@@ -183,13 +186,14 @@ h6 {
 h5 {
   font-size: 1rem;
   margin: .5em 0 .5em;
+  text-align: center;
 }
 
 ul {
   list-style-type: none;
   margin-top: .1em;
   line-height: 1.3;
-  text-align: left;
+  text-align: center;
 }
 
 .menu {
@@ -231,5 +235,26 @@ ul {
 .contact {
   margin-left: -.5em;
   background-color: #e2e2e2;
-  padding: 0.1em .5em;
+  padding: 0.1em .5em 2.5em;
+}
+
+h7 {
+  font-size: 4rem;
+  margin-left: 2em;
+}
+
+@media only screen and (min-width: 25em) {
+
+}
+
+@media only screen and (min-width: 38em) {
+
+}
+
+@media only screen and (min-width: 60em) {
+
+}
+
+@media only screen and (min-width: 90em) {
+
 }
