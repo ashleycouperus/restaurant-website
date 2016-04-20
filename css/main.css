@@ -28,9 +28,12 @@ body {
   display: inline-block;
 }
 
+nav a {
+  display: none;
+}
+
 .banner {
   max-width: 100%;
-  margin: 0;
   position: relative;
   display: block;
 }
@@ -137,6 +140,30 @@ h3 {
   right: 10%;
 }
 
+.link-card {
+  background-color: #eee;
+  border-radius: 1em;
+  border: 1px solid #000;
+  width: 15em;
+  padding-top: 6em;
+  margin-top: 1em;
+  position: relative;
+  float: right;
+  right: 10%;
+}
+
+.link-c {
+  background-color: #eee;
+  border-radius: 1em;
+  border: 1px solid #000;
+  width: 15em;
+  padding-top: 6em;
+  margin-top: 1em;
+  position: relative;
+  float: right;
+  right: 10%;
+}
+
 a {
   text-decoration: none;
   padding-top: 10em;
@@ -176,7 +203,7 @@ h6 {
 }
 
 .location {
-  margin-top: 4em;
+  margin-top: 25em;
   border-top: 1px solid #333;
 }
 
@@ -225,7 +252,7 @@ ul {
 
 .service {
   border-top: 1px solid #333;
-  margin-top: 4em;
+  margin-top: 25em;
 }
 
 .faster {
@@ -293,6 +320,117 @@ h7 {
 
 @media only screen and (min-width: 60em) {
 
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  nav a {
+    display: inline-block;
+    font-size: 1.125rem;
+    text-decoration: none;
+    list-style-type: none;
+    color: #000;
+    text-align: center;
+    float: right;
+    width: 20%;
+    margin: -6.3em 0 .5em;
+  }
+
+  figcaption {
+    left: 29%;
+    top: 15em;
+   }
+
+  .link {
+    width: 33.3333%;
+    display: inline-block;
+    float: left;
+    position: relative;
+    left: 1rem;
+  }
+
+  .link-card {
+    width: 33.3333%;
+    display: inline-block;
+    float: left;
+    position: relative;
+    left: 1rem;
+  }
+
+  .link-c {
+    width: 33.3333%;
+    display: inline-block;
+    float: left;
+    position: relative;
+    left: 1rem;
+  }
+
+  .mission {
+    margin-top: 25em;
+  }
+
+  h7 {
+    margin-left: 4em;
+  }
+
+  .toggle {
+    display: none;
+    margin: 0;
+  }
+
+  .title {
+    margin: 2.5em 0 .5em .5em;
+    float: left;
+  }
+
+  .pizza {
+    width: 33.3333%;
+    display: inline-block;
+    float: left;
+    position: relative;
+    left: 1rem;
+  }
+
+  .subs {
+    width: 33.3333%;
+    display: inline-block;
+    float: left;
+    position: relative;
+    left: 1rem;
+  }
+
+  .groceries {
+    width: 33.3333%;
+    display: inline-block;
+    float: left;
+    position: relative;
+    left: 1rem;
+  }
+
+  .hot-ready {
+    width: 33.3333%;
+    display: inline-block;
+    float: left;
+    position: relative;
+    left: 1rem;
+  }
+
+  .more-workers {
+    width: 33.3333%;
+    display: inline-block;
+    float: left;
+    position: relative;
+    left: 1rem;
+  }
+
+  .more-cashiers {
+    width: 33.3333%;
+    display: inline-block;
+    float: left;
+    position: relative;
+    left: 1rem;
+  }
 }
 
 @media only screen and (min-width: 90em) {
