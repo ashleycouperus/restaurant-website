@@ -32,6 +32,11 @@ nav a {
   display: none;
 }
 
+nav a:hover {
+  background-color: #666;
+  color: #fff;
+}
+
 .banner {
   max-width: 100%;
   position: relative;
@@ -288,6 +293,9 @@ ul {
   .number {
     margin-left: 2.8em;
   }
+
+  .links {
+  left: 25%;
 }
 
 @media only screen and (min-width: 38em) {
@@ -313,6 +321,14 @@ ul {
 
   .number {
     margin-left: 4em;
+  }
+
+    .links {
+    left: 26%;
+  }
+
+  .contact {
+    padding-bottom: 3.5em;
   }
 }
 
@@ -444,6 +460,14 @@ ul {
     margin-left: 2em;
   }
 
+  .links {
+  left: 26%;
+  max-width: 40%;
+}
+
+  .contact {
+    padding-bottom: 5em;
+  }
 }
 
 @media only screen and (min-width: 90em) {
@@ -472,4 +496,17 @@ ul {
     margin-left: 2.5em;
   }
 
+  .map {
+    width: 50%;
+    margin-left: 18em;
+  }
+
+  .links {
+  left: 29%;
+  max-width: 30%;
+}
+
+  .contact {
+    padding-bottom: 6em;
+  }
 }
