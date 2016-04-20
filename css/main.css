@@ -267,6 +267,28 @@ h7 {
 
 @media only screen and (min-width: 38em) {
 
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+  figcaption {
+    left: 20%;
+    top: 10em;
+   }
+
+  p {
+    max-width: 20em;
+    margin-left: 7em;
+  }
+
+  .link {
+    right: 0%;
+  }
+
+  h7 {
+    margin-left: 4em;
+  }
 }
 
 @media only screen and (min-width: 60em) {
