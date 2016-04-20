@@ -145,6 +145,7 @@ a {
 
 p {
   text-align: center;
+  margin-right: .5em;
 }
 
 .mission {
@@ -240,11 +241,28 @@ ul {
 
 h7 {
   font-size: 4rem;
-  margin-left: 2em;
+  margin-left: 2.2em;
 }
 
 @media only screen and (min-width: 25em) {
 
+  html {
+     font-size: 100%;
+     line-height: 1.3;
+   }
+
+  figcaption {
+    left: 10%;
+    top: 7em;
+   }
+
+  .link {
+    right: 19%;
+  }
+
+  h7 {
+    margin-left: 2.8em;
+  }
 }
 
 @media only screen and (min-width: 38em) {
