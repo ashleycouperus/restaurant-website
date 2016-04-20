@@ -101,9 +101,10 @@ h3 {
 }
 
 .link-cards {
-  max-width: 25em;
-  position: relative;
+  max-width: 40em;
   margin-top: 3em;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .card {
@@ -342,31 +343,14 @@ h7 {
    }
 
    .link-cards {
-      text-align: center;
+    left: 33.3333%;
    }
 
   .link {
-    width: 33.3333%;
-    display: inline-block;
+    width: calc(33.3333% - 1em);
     float: left;
-    position: relative;
-    left: 1rem;
-  }
-
-  .link-card {
-    width: 33.3333%;
-    display: inline-block;
-    float: left;
-    position: relative;
-    left: 1rem;
-  }
-
-  .link-c {
-    width: 33.3333%;
-    display: inline-block;
-    float: left;
-    position: relative;
-    left: 1rem;
+    padding-left: .5em;
+    margin-left: 1em;
   }
 
   .mission {
@@ -433,11 +417,6 @@ h7 {
     float: left;
     position: relative;
     left: 1rem;
-  }
-
-  .location {
-    margin-top: 5em;
-    border-top: 1px solid #333;
   }
 
   .service {
