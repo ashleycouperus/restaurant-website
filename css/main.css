@@ -182,13 +182,13 @@ p {
   border-top: 1px solid #333;
 }
 
-h4 {
+h5 {
   font-size: 1.25rem;
   margin-left: .5em;
   text-align: center;
 }
 
-h6 {
+h4 {
   font-size: 1.25rem;
   text-align: center;
   color: #000;
@@ -212,7 +212,7 @@ h6 {
   width: 100%;
 }
 
-h5 {
+h6 {
   font-size: 1rem;
   margin: .5em 0 .5em;
   text-align: center;
