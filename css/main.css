@@ -295,7 +295,8 @@ ul {
   }
 
   .links {
-  left: 25%;
+    left: 25%;
+  }
 }
 
 @media only screen and (min-width: 38em) {
@@ -323,7 +324,7 @@ ul {
     margin-left: 4em;
   }
 
-    .links {
+  .links {
     left: 26%;
   }
 
@@ -461,12 +462,17 @@ ul {
   }
 
   .links {
-  left: 26%;
-  max-width: 40%;
-}
+    left: 26%;
+    max-width: 40%;
+  }
 
   .contact {
     padding-bottom: 5em;
+  }
+
+  nav a:hover {
+    background-color: #666;
+    color: #fff;
   }
 }
 
@@ -486,6 +492,11 @@ ul {
     margin-left: 5em;
   }
 
+  nav a:hover {
+    background-color: #666;
+    color: #fff;
+  }
+
   .mission-para {
     margin-left: 23em;
     text-align: center;
@@ -502,9 +513,9 @@ ul {
   }
 
   .links {
-  left: 29%;
-  max-width: 30%;
-}
+    left: 29%;
+    max-width: 30%;
+  }
 
   .contact {
     padding-bottom: 6em;
