@@ -11,6 +11,7 @@ html {
   text-size-adjust: 100%;
   box-sizing: border-box;
   font: normal 100%/1.3 Open Sans, sans-serif;
+  overflow-x: hidden;
 }
 
 *, *::before, *::after {
@@ -20,6 +21,7 @@ html {
 body {
   margin: 0;
   font-family: "Open Sans", sans-serif;
+  overflow-x: hidden;
 }
 
 .toggle {
@@ -338,6 +340,7 @@ ul {
   html {
     font-size: 120%;
     line-height: 1.5;
+    overflow-x: hidden;
   }
 
   nav a {
@@ -387,51 +390,51 @@ ul {
   }
 
   .pizza {
-    width: 33.3333%;
+    width: 30%;
     display: inline-block;
     float: left;
     position: relative;
-    left: 1rem;
+    left: 2em;
   }
 
   .subs {
-    width: 33.3333%;
+    width: 30%;
     display: inline-block;
     float: left;
     position: relative;
-    left: 1rem;
+    left: 2.5em;
   }
 
   .groceries {
-    width: 33.3333%;
+    width: 30%;
     display: inline-block;
     float: left;
     position: relative;
-    left: 1rem;
+    left: 2em;
   }
 
   .hot-ready {
-    width: 33.3333%;
+    width: 30%;
     display: inline-block;
     float: left;
     position: relative;
-    left: 1rem;
+    left: 2rem;
   }
 
   .more-workers {
-    width: 33.3333%;
+    width: 30%;
     display: inline-block;
     float: left;
     position: relative;
-    left: 1rem;
+    left: 2rem;
   }
 
   .more-cashiers {
-    width: 33.3333%;
+    width: 30%;
     display: inline-block;
     float: left;
     position: relative;
-    left: 1rem;
+    left: 2rem;
   }
 
   .service {
@@ -443,12 +446,16 @@ ul {
   }
 
   .mission {
-    margin-top: 20em;
+    margin-top: 18em;
+  }
+
+  .location {
+    margin-top: 22em;
   }
 
   p {
     max-width: 15em;
-    margin-left: 1.5em;
+    margin-left: 1em;
   }
 
   .mission-para {
@@ -489,7 +496,7 @@ ul {
   }
 
   p {
-    margin-left: 5em;
+    margin-left: 3em;
   }
 
   nav a:hover {
