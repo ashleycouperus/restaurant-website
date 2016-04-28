@@ -103,7 +103,7 @@ h3 {
   float: right;
   position: absolute;
   right: 34%;
-  bottom: 50%;
+  bottom: 40%;
 }
 
 .link-cards {
@@ -180,11 +180,17 @@ a {
 
 p {
   text-align: center;
+  margin: 0 1.5em;
 }
 
 .mission {
-  margin-top: 50em;
+  margin-top: 44em;
   border-top: 1px solid #333;
+}
+
+.mission-para {
+  text-align: center;
+  margin: 0 1.5em;
 }
 
 h5 {
@@ -228,6 +234,7 @@ ul {
   margin-top: .1em;
   line-height: 1.3;
   text-align: center;
+  margin-left: -1.5em;
 }
 
 .menu {
@@ -319,7 +326,18 @@ ul {
   }
 
   .link {
-    right: 0%;
+    display: block;
+    max-width: 10em;
+    margin-left: .5em;
+    right: 5%;
+  }
+
+  .circle {
+    bottom: 5em;
+  }
+
+  .mission {
+    margin-top: 18em;
   }
 
   .number {
@@ -357,26 +375,33 @@ ul {
 
   figcaption {
     left: 29%;
-    top: 15em;
+    top: 17em;
   }
 
   .link-cards {
-    left: 33.3333%;
+    left: 30%;
+
   }
 
   .link {
     width: calc(33.3333% - 1em);
-    float: left;
+    left: -1%;
     padding-left: .5em;
     margin-left: 1em;
+    max-width: 20em;
   }
 
   .mission {
-    margin-top: 25em;
+    margin-top: 20em;
+  }
+
+  .mission-para {
+    max-width: 25em;
+    margin-left: 12em;
   }
 
   .number {
-    margin-left: 4em;
+  margin-left: 1.5em;
   }
 
   .toggle {
@@ -445,27 +470,12 @@ ul {
     margin-top: 25em;
   }
 
-  .mission {
-    margin-top: 18em;
-  }
-
   .location {
     margin-top: 22em;
   }
 
   p {
-    max-width: 15em;
-    margin-left: 1em;
-  }
-
-  .mission-para {
-    margin-left: 13em;
-    text-align: center;
-    max-width: 25em;
-  }
-
-  .number {
-    margin-left: 2em;
+    margin: 0 2em 0 2em;
   }
 
   .links {
@@ -492,7 +502,11 @@ ul {
 
   figcaption {
     left: 35%;
-    top: 20em;
+    top: 22.5em;
+  }
+
+  .link {
+    margin-left: 1em;
   }
 
   p {
@@ -511,7 +525,15 @@ ul {
   }
 
   .number {
+    margin-left: 2.3em;
+  }
+
+  .items {
     margin-left: 2.5em;
+  }
+
+  .more-workers {
+    margin-left: 1.5em;
   }
 
   .map {
